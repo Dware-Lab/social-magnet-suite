@@ -32,6 +32,7 @@ a {
     color: var(--secondary-color);
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 
 a:hover {
@@ -301,7 +302,6 @@ section{
     border: none;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 0 10px 0px #00000014;
 }
 
 .feature_section.card {
@@ -388,6 +388,11 @@ section{
     position: relative;
 }
 
+.navbar-brand{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
     border: none;
@@ -462,12 +467,15 @@ section{
 
 /* header */
 
-.main-header {
+.main-header, header {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+}
+
+.main-header{
     background: #fff url("../img/header-bg.svg") center center no-repeat;
     background-size: cover;
     min-height: 700px;
-    padding-top: 9rem;
-    padding-bottom: 6rem;
 }
 
 .main-header h1 {
@@ -1034,39 +1042,16 @@ footer p {
 
 /* contact */
 
+#contact{
+    background: url("https://images.squarespace-cdn.com/content/v1/5b4262e22487fd20ea8fb8f5/1553802915714-YBL6JK26OJ9F1N1NH8NO/ke17ZwdGBToddI8pDm48kErRdOiZQvGu5P764Xs9CZZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwV2LLh8Ikoqn8FJ6zNwnaj55npwwNuwLm3yzW2hWHb-31qUEspYnbp461wq4Fo92M/abstract-white-background-vector-illustration_1407-419.jpg") center center no-repeat;
+    background-size: cover;
+}
+
 #contact h3 {
     font-size: 2rem;
     position: relative;
 }
 
-#contact h3::before {
-    position: absolute;
-    left: 0;
-    top: 5px;
-    font-family: 'Font Awesome 5 Free';
-    content: "\f0c0";
-    font-weight: 900;
-    color: var(--secondary-color);
-}
-
-#contact h3::after {
-    position: absolute;
-    right: 0;
-    top: 5px;
-    font-family: 'Font Awesome 5 Free';
-    content: "\f0c0";
-    font-weight: 900;
-    color: var(--secondary-color);
-}
-
-#contact label {
-    color: #282929;
-    font-weight: 600;
-}
-
-#contact input {
-    font-size: 14px;
-}
 
 /* signup */
 
