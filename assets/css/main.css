@@ -405,7 +405,7 @@ section{
     font-weight: 600;
     color: #8e8e8e;
     background: transparent;
-    transition: all .5s;
+    transition: all .45s;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #183646;
