@@ -168,7 +168,7 @@ th {
 }
 
 section{
-    padding: 90px 0 40px;
+    padding: 90px 0 90px;
 }
 
 .section-title h3{
@@ -988,13 +988,9 @@ footer p {
         outline: none;
     }
     .navbar-light .navbar-nav .nav-link {
-        color: rgb(255, 255, 255);
         font-weight: 600;
         opacity: 1;
         margin-bottom: 10px;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        color: #fff;
     }
     footer {
         text-align: center;
@@ -1048,10 +1044,44 @@ footer p {
     .main-header {
         text-align: center;
         min-height: auto;
-        background: #0c0e13;
+        padding: 3rem 0;
     }
     .main-header h1 {
-        font-size: 32px;
-        margin-bottom: 24px;
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .main-header p {
+        font-size: 1rem;
+        color: #787878;
+    }
+    .fixed-top {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .navbar {
+        height: auto;
+    }
+    .main-header .btn {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    section{
+        padding: 40px 0 40px;
+    }
+    .section-title p {
+        font-size: 1.3rem;
+        line-height: 25px;
+        font-weight: 500;
+        margin-bottom: 14px;
+        color: #16215c;
+    }
+    .section-title p span::after {
+        display: none;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
     }
 }
