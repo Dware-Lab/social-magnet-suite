@@ -397,7 +397,7 @@ section{
     display: block;
     border: none;
     border-radius: 10px;
-    padding: 4rem;
+    padding: 1.5rem;
 }
 
 .dropdown-item{
@@ -406,6 +406,13 @@ section{
     color: #8e8e8e;
     background: transparent;
     transition: all .45s;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item img{
+    display: block;
+    margin-right: 6px;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #183646;
