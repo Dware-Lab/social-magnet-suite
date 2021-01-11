@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:file="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8">
@@ -14,10 +14,10 @@
     <link rel="icon" href="assets/img/favicons/favicon-50x50.png" sizes="50x50" type="image/png">
     <link rel="icon" href="assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="apple-touch-icon" href="icon.png">
-
     <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -90,10 +90,10 @@
                     <a class="nav-link" href="about-us.html">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link active" aria-current="page" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+                    <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -105,45 +105,122 @@
     </div>
 </nav>
 
-<section class="ptb-150" id="contact">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-3 v-centered">
-                <h3>Contact us</h3>
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab corporis cum distinctio dolorem ex, exercitationem facere facilis.</p>
+    <!-- Pricing -->
+    <section class="ptb-150 bg-light pb-5" id="pricing">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center section-title">
+                    <h1 class="font-weight-bold mb-3">See our pricing</h1>
+                    <p class="mb-4 text-large">Get advanced plans to boost your brand awareness and improved
+                        result </p>
+                </div>
             </div>
-            <div class="col-lg-5">
-                <div class="card shadow">
-                    <div class="card-body text-left p-5">
-                        <div class="phone mb-3">
-                            <a href="#" class="text-dark">
-                            <i class="fa fa-user h4"></i>
-                            <span class="h4">+91 9876 543 210</span>
-                            </a>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="pricing-switch">
+                        <div class="pricing-monthly">
+                            <div class="pricing__term">Monthly billing</div>
+                            <div>no contract</div>
                         </div>
-                        <div class="mail mb-3">
-                            <a href="#" class="text-dark">
-                                <i class="fa fa-envelope h4"></i>
-                                <span class="h4">example@domain.com</span>
-                            </a>
+                        <div class="pricing-toggle">
+                            <div class="pricing-toggle__knob"></div>
                         </div>
-                        <div class="location">
-                            <a href="#" class="text-dark">
-                                <i class="fa fa-map-marked-alt h5"></i>
-                                <span class="h5">
-                                    Cecilia Chapman
-                                    711-2880 Nulla St.
-                                    Mankato Mississippi 96522
-                                    (257) 563-7401
-                                </span>
-                            </a>
+                        <div class="pricing-annual">
+                            <div class="pricing__term">Annual billing</div>
+                            <div>Budget Price</div>
+                        </div>
+                    </div>
+                    <div class="plans-overview row">
+                        <div class="col-lg-3">
+                            <div class="plan box">
+                                <div class="plan__name">Starter</div>
+                                <div class="plan__description">
+                                    Best for anyone who is getting started with linkroid
+                                </div>
+                                <div class="plan__price monthly">
+                                    <div class="plan__amount">$29</div>
+                                    <span class="text-muted"> <strike>$348</strike> </span>
+                                    <div class="plan__billing">per user per month</div>
+                                </div>
+                                <div class="plan__price annual">
+                                    <div class="plan__amount">$297</div>
+                                    <span class="text-muted"> <strike>$348</strike> </span>
+                                    <div class="plan__billing">per user per month, billed annually</div>
+                                </div>
+                                <a href="https://app.linkroid.com/register" target="_blank"
+                                    class="btn link-btn w-100">Start Trial</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="plan box">
+                                <div class="plan__name">Personal</div>
+                                <div class="plan__description">
+                                    Best for anyone who needs more features and resources
+                                </div>
+                                <div class="plan__price monthly">
+                                    <div class="plan__amount">$69</div>
+                                    <span class="text-muted"> <strike>$348</strike> </span>
+                                    <div class="plan__billing">per user per month</div>
+                                </div>
+                                <div class="plan__price annual">
+                                    <div class="plan__amount">$697</div>
+                                    <span class="text-muted"> <strike>$828</strike> </span>
+                                    <div class="plan__billing">per user per month, billed annually</div>
+                                </div>
+                                <a href="https://app.linkroid.com/register" target="_blank"
+                                    class="btn link-btn w-100">Start Trial</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="plan box">
+                                <div class="plan__name">Business</div>
+                                <div class="plan__description">
+                                    Best for established business that needs more feature and resources
+                                </div>
+                                <div class="plan__price monthly">
+                                    <div class="plan__amount">$149</div>
+                                    <span class="text-muted"> <strike>$348</strike> </span>
+                                    <div class="plan__billing">per user per month</div>
+                                </div>
+                                <div class="plan__price annual">
+                                    <div class="plan__amount">$1497</div>
+                                    <span class="text-muted"> <strike>$1788</strike> </span>
+                                    <div class="plan__billing">per user per month, billed annually</div>
+                                </div>
+                                <a href="https://app.linkroid.com/register" target="_blank"
+                                    class="btn link-btn w-100">Start Trial</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="plan box">
+                                <div class="plan__name">Agency</div>
+                                <div class="plan__description">
+                                    Best for agencies that manages multiple clients and resell our services
+                                </div>
+                                <div class="plan__price monthly">
+                                    <div class="plan__amount">$297</div>
+                                    <span class="text-muted"> <strike>$348</strike> </span>
+                                    <div class="plan__billing">per user per month</div>
+                                </div>
+                                <div class="plan__price annual">
+                                    <div class="plan__amount">$2997</div>
+                                    <span class="text-muted"> <strike>$3564</strike> </span>
+                                    <div class="plan__billing">per user per month, billed annually</div>
+                                </div>
+                                <a href="https://app.linkroid.com/register" target="_blank"
+                                    class="btn link-btn w-100">Start Trial</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
-    </div>
-</section>
+    </section>
+    <!-- Pricing-End -->
+
 
 <!-- footer -->
 <footer class="linksection pt-5 pb-3">
@@ -214,7 +291,7 @@
                             <a href="terms.html" class="nav-link text-white">Terms of Service</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#faq" class="nav-link text-white">FAQ</a>
+                            <a href="404.html" class="nav-link text-white">FAQ</a>
                         </li>
                         <li class="nav-item">
                             <a href="privacy.html" class="nav-link text-white">Privacy Policy</a>
@@ -250,12 +327,10 @@
 </footer>
 <!-- footer-end -->
 
-
 <script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
-<script src="assets/js/cookiealert-standalone.js"></script>
 </body>
 
 </html>

@@ -695,7 +695,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem auto 4rem;
+    margin: 0 auto 2rem;
 }
 
 .pricing-monthly {
@@ -722,6 +722,10 @@ section{
     border-radius: 20px;
     position: relative;
     cursor: pointer;
+    -webkit-transition: all 0.3s 0.1s ease-in-out;
+    -moz-transition: all 0.3s 0.1s ease-in-out;
+    -o-transition: all 0.3s 0.1s ease-in-out;
+    transition: all 0.3s 0.1s ease-in-out
 }
 
 .pricing-toggle__knob {
@@ -732,6 +736,10 @@ section{
     border-radius: 100%;
     top: 3px;
     left: 4px;
+    -webkit-transition: all 0.3s 0.1s ease-in-out;
+    -moz-transition: all 0.3s 0.1s ease-in-out;
+    -o-transition: all 0.3s 0.1s ease-in-out;
+    transition: all 0.3s 0.1s ease-in-out
 }
 
 .pricing-toggle.annually {
@@ -761,11 +769,15 @@ section{
     box-shadow: 0 12px 40px rgba(51, 62, 77, 0.15);
     text-align: center;
     margin-bottom: 3rem;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .plan__name {
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--secondary-color);
     margin-bottom: 1rem;
     text-transform: uppercase;
