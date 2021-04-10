@@ -1,356 +1,581 @@
-<!doctype html>
+<!DOCTYPE html>
 <html xmlns:file="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Social magnet suite | Growth Hacking Automation Extension</title>
-    <meta name="description"
-          content="Social magnet suite is a growth hacking automation extension that helps you t">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Social magnet suite is a growth hacking automation extension that helps you t"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="assets/img/favicons/favicon-50x50.png" sizes="50x50" type="image/png">
-    <link rel="icon" href="assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link
+      rel="apple-touch-icon"
+      href="assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="assets/img/favicons/favicon-50x50.png"
+      sizes="50x50"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/main.min.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+  </head>
 
-<body>
-
-
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/img/smslogo__dark.png" width="140" alt="Social Magnet Suite">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa fa-cog"></i> Tools
-                        </a>
-                        <ul class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="friend-maker.html">
-                                <img src="assets/img/icons/fm.png" width="30" alt="">
-                                <span>Friend Maker</span>
-                            </a></li>
-                            <li><a class="dropdown-item" href="friend-remover.html">
-                                <img src="assets/img/icons/fr.png" width="30" alt="">
-                                Friend remover
-                            </a></li>
-                            <li><a class="dropdown-item" href="feed-engager.html">
-                                <img src="assets/img/icons/fe.png" width="30" alt="">
-                                Feed engager
-                            </a></li>
-                            <li><a class="dropdown-item" href="feed-filter.html">
-                                <img src="assets/img/icons/ff.png" width="30" alt="">
-                                Feed filter
-                            </a></li>
-                            <li><a class="dropdown-item" href="comment-responder.html">
-                                <img src="assets/img/icons/cr.png" width="30" alt="">
-                                Comment responder
-                            </a></li>
-                            <li><a class="dropdown-item" href="messenger-matic.html">
-                                <img src="assets/img/icons/mm.png" width="30" alt="">
-                                Messenger matic
-                            </a></li>
-                            <li><a class="dropdown-item" href="messenger-connector.html">
-                                <img src="assets/img/icons/mc.png" width="30" alt="">
-                                Messenger Connector
-                            </a></li>
-                            <li><a class="dropdown-item" href="group-magnet.html">
-                                <img src="assets/img/icons/gm.png" width="30" alt="">
-                                Group Magnet
-                            </a></li>
-                            <li><a class="dropdown-item" href="friend-approver.html">
-                                <img src="assets/img/icons/fa.png" width="30" alt="">
-                                Friend approver
-                            </a></li>
-                            <li><a class="dropdown-item" href="link-saver.html">
-                                <img src="assets/img/icons/ls.png" width="30" alt="">
-                                Link saver
-                            </a></li>
-                        </ul>
-                    </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="team.html">Team</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="about-us.html">About us</a>-->
-<!--                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="btn btn-primary" href="#">Start free trial</a>
-                    </li>
-                </ul>
-            </div>
+  <body>
+  <div class="topBar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="joinCommunity">
+            <span>🎉 Announce A Sale Or Discount With A Hello Bar Like This. Grab Your FREE Account Today!</span>
+            <a href="https://www.facebook.com/groups/socialmagnetsuite" class="btn joinGroupBtn">Join Our Facebook Community Here!</a>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./assets/img/smslogo__dark.png"
+            width="140"
+            alt="Social Magnet Suite"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa fa-cog"></i> Tools
+              </a>
+              <ul class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="friend-maker.html">
+                    <img src="assets/img/icons/fm.png" width="30" alt="" />
+                    <span>Friend Maker</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="friend-remover.html">
+                    <img src="assets/img/icons/fr.png" width="30" alt="" />
+                    Friend remover
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="feed-engager.html">
+                    <img src="assets/img/icons/fe.png" width="30" alt="" />
+                    Feed engager
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="feed-filter.html">
+                    <img src="assets/img/icons/ff.png" width="30" alt="" />
+                    Feed filter
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="comment-responder.html">
+                    <img src="assets/img/icons/cr.png" width="30" alt="" />
+                    Comment responder
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="messenger-matic.html">
+                    <img src="assets/img/icons/mm.png" width="30" alt="" />
+                    Messenger matic
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="messenger-connector.html">
+                    <img src="assets/img/icons/mc.png" width="30" alt="" />
+                    Messenger Connector
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="group-magnet.html">
+                    <img src="assets/img/icons/gm.png" width="30" alt="" />
+                    Group Magnet
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="friend-approver.html">
+                    <img src="assets/img/icons/fa.png" width="30" alt="" />
+                    Friend approver
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="link-saver.html">
+                    <img src="assets/img/icons/ls.png" width="30" alt="" />
+                    Link saver
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!--                    <li class="nav-item">-->
+            <!--                        <a class="nav-link" href="team.html">Team</a>-->
+            <!--                    </li>-->
+            <!--                    <li class="nav-item">-->
+            <!--                        <a class="nav-link" href="about-us.html">About us</a>-->
+            <!--                    </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#">Start free trial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-<!-- header -->
-<header class="main-header v-centered">
-    <div class="container">
+    <!-- banner -->
+    <header class="main-header v-centered">
+      <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h1>Social Magnet Suite</h1>
-                <p>Social Magnet suite is a suite of Social Media chrome extension that helps you to automate tasks to save time and money</p>
-                <a href="pricing.html" class="btn btn-primary py-3 px-5 mb-lg-0 mb-2">Start free trial</a>
-            </div>
-            <!--div class="col-lg-8 mt-2 mt-lg-5">
+          <div class="col-lg-8 text-center">
+            <h1>Social Magnet Suite</h1>
+            <p>
+              Social Magnet suite is a suite of Social Media chrome extension
+              that helps you to automate tasks to save time and money
+            </p>
+            <a
+              href="pricing.html"
+              class="btn btn-primary py-3 px-5 mb-lg-0 mb-2"
+              >Start free trial</a
+            >
+          </div>
+          <!--div class="col-lg-8 mt-2 mt-lg-5">
                 <div class="ratio ratio-16x9">
                     <iframe class="rounded shadow-lg" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
                 </div>
             </div-->
         </div>
-    </div>
-</header>
-<!-- header-end -->
+      </div>
+    </header>
+    <!-- banner-end -->
 
-<!-- ourSoftwares -->
-<section class="bg-white" id="ourSoftwares">
-    <div class="container">
+    <!-- ourSoftwares -->
+    <section class="bg-white" id="ourSoftwares">
+      <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center section-title">
-                <h3>Our Softwares</h3>
-                <p>Explore our <span>unique extensions</span> & <br> get <span>amazing</span> experience</p>
-            </div>
+          <div class="col-lg-8 text-center section-title">
+            <h3>Our Softwares</h3>
+            <p>
+              Explore our <span>unique extensions</span> & <br />
+              get <span>amazing</span> experience
+            </p>
+          </div>
         </div>
         <div class="row mt-4 mb-lg-5 mb-0 justify-content-center software__row">
-            <div class="col-lg-5 mb-5 v-centered">
-                <img src="assets/img/softwares/fm.jpg" class="w-100 rounded" alt="Friend maker">
-            </div>
-            <div class="col-lg-5 mb-5">
-                <h3>Friend maker</h3>
-                <p>
-
-                    Friend Maker is a chrome extension that helps you to automate the process of sending friend requests.
-
-
-                    Using Friend Maker you can send requests to people inside a group, friend list of a person, suggested friends, people reacted on a post and comment.
-
-
-                    You can also use Friend Maker to send a personalized message (with their first and last name) right after you send a request to more people accepting your request.
-
-
-                    When you add friends you can set different conditions to make sure you are adding targeted friends like the delay between sending a request, number of mutual friends a person must have to send a request, keywords that should be seen on their profile.
-
-
-                </p>
-                <a href="friend-maker.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
+          <div class="col-lg-5 mb-5 v-centered">
+            <img
+              src="assets/img/softwares/fm.jpg"
+              class="w-100 rounded"
+              alt="Friend maker"
+            />
+          </div>
+          <div class="col-lg-5 mb-5">
+            <h3>Friend maker</h3>
+            <p>
+              Friend Maker is a chrome extension that helps you to automate the
+              process of sending friend requests. Using Friend Maker you can
+              send requests to people inside a group, friend list of a person,
+              suggested friends, people reacted on a post and comment. You can
+              also use Friend Maker to send a personalized message (with their
+              first and last name) right after you send a request to more people
+              accepting your request. When you add friends you can set different
+              conditions to make sure you are adding targeted friends like the
+              delay between sending a request, number of mutual friends a person
+              must have to send a request, keywords that should be seen on their
+              profile.
+            </p>
+            <a href="friend-maker.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row col-reverse">
-            <div class="col-lg-5 v-centered mb-5">
-                <h3>Friend remover</h3>
-                <p>
-                    Friend Remover is a chrome extension that helps you to scan your post and find the list of inactive and active friends. You can then select the friends that you need to remove them in a few clicks.
-                    You can also whitelist friends so you don’t accidentally remove them from your friends list.
-                </p>
-                <a href="friend-remover.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/fr.png" class="w-100 rounded" alt="Friend remover">
-            </div>
+        <div
+          class="row mb-lg-5 mb-0 justify-content-center software__row col-reverse"
+        >
+          <div class="col-lg-5 v-centered mb-5">
+            <h3>Friend remover</h3>
+            <p>
+              Friend Remover is a chrome extension that helps you to scan your
+              post and find the list of inactive and active friends. You can
+              then select the friends that you need to remove them in a few
+              clicks. You can also whitelist friends so you don’t accidentally
+              remove them from your friends list.
+            </p>
+            <a href="friend-remover.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/fr.png"
+              class="w-100 rounded"
+              alt="Friend remover"
+            />
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row">
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/fe.png" class="w-100 rounded" alt="Feed engager">
-            </div>
-            <div class="col-lg-5 mb-5 v-centered">
-                <h3>Feed Engager</h3>
-                <p>
-                    Feed Engager is a chrome extension that helps you to react to the post shown on your feed. It works inside the timeline of home feed, profile of a person, inside a group and page and anywhere posts are shown one after the other.
-                </p>
-                <a href="feed-engager.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
+        <div class="row mb-lg-5 mb-0 justify-content-center software__row">
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/fe.png"
+              class="w-100 rounded"
+              alt="Feed engager"
+            />
+          </div>
+          <div class="col-lg-5 mb-5 v-centered">
+            <h3>Feed Engager</h3>
+            <p>
+              Feed Engager is a chrome extension that helps you to react to the
+              post shown on your feed. It works inside the timeline of home
+              feed, profile of a person, inside a group and page and anywhere
+              posts are shown one after the other.
+            </p>
+            <a href="feed-engager.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-05 justify-content-center software__row col-reverse">
-            <div class="col-lg-5 v-centered mb-5">
-                <h3>Feed filter</h3>
-                <p>                        Feed Filter is a chrome extension that helps you to filter your feed based on keywords. You can either use this extension to show your feed with keywords that you specified or hide posts having the keywords you specified and it will also check the comments for the keywords.</p>
-                <a href="feed-filter.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/ff.jpg" class="w-100 rounded" alt="Feed filter">
-            </div>
+        <div
+          class="row mb-lg-5 mb-05 justify-content-center software__row col-reverse"
+        >
+          <div class="col-lg-5 v-centered mb-5">
+            <h3>Feed filter</h3>
+            <p>
+              Feed Filter is a chrome extension that helps you to filter your
+              feed based on keywords. You can either use this extension to show
+              your feed with keywords that you specified or hide posts having
+              the keywords you specified and it will also check the comments for
+              the keywords.
+            </p>
+            <a href="feed-filter.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/ff.jpg"
+              class="w-100 rounded"
+              alt="Feed filter"
+            />
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row">
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/gm.jpg" class="w-100 rounded" alt="Group magnet">
-            </div>
-            <div class="col-lg-5 mb-5 v-centered">
-                <h3>Group magnet</h3>
-                <p>
-                    Group Magnet Is a chrome extension that helps you to collect the data of people who request to join your group and save it into a spreadsheet. From there you can save this data to any autoresponder you like using zapier.
-                </p>
-                <a href="group-magnet.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
+        <div class="row mb-lg-5 mb-0 justify-content-center software__row">
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/gm.jpg"
+              class="w-100 rounded"
+              alt="Group magnet"
+            />
+          </div>
+          <div class="col-lg-5 mb-5 v-centered">
+            <h3>Group magnet</h3>
+            <p>
+              Group Magnet Is a chrome extension that helps you to collect the
+              data of people who request to join your group and save it into a
+              spreadsheet. From there you can save this data to any
+              autoresponder you like using zapier.
+            </p>
+            <a href="group-magnet.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row col-reverse">
-            <div class="col-lg-5 v-centered mb-5">
-                <h3>Comment Responder</h3>
-                <p>
-                    Comment Responder is a chrome extension that helps you to reply to comments on your post without you having to spend hours manually responding. You can also use the extension to send a message right after you comment on the post. You can set certain conditions when doing this process like comment reply delay, stop after a certain number of comments, take a temporary break, length of temporary break, reply text variations and keyword filter so it only responds to the comment having specific keywords.
-                </p>
-                <a href="comment-responder.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/cr.png" class="w-100 rounded" alt="Comment responder">
-            </div>
+        <div
+          class="row mb-lg-5 mb-0 justify-content-center software__row col-reverse"
+        >
+          <div class="col-lg-5 v-centered mb-5">
+            <h3>Comment Responder</h3>
+            <p>
+              Comment Responder is a chrome extension that helps you to reply to
+              comments on your post without you having to spend hours manually
+              responding. You can also use the extension to send a message right
+              after you comment on the post. You can set certain conditions when
+              doing this process like comment reply delay, stop after a certain
+              number of comments, take a temporary break, length of temporary
+              break, reply text variations and keyword filter so it only
+              responds to the comment having specific keywords.
+            </p>
+            <a href="comment-responder.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/cr.png"
+              class="w-100 rounded"
+              alt="Comment responder"
+            />
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row">
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/mm.png" class="w-100 rounded" alt="messenger matic">
-            </div>
-            <div class="col-lg-5 mb-5 v-centered">
-                <h3>Messenger matic</h3>
-                <p>                        Messenger Matic is a chrome extension that helps you to tag and manage people inside your messenger. You can assign notes, create notifications, and You can also send bulk messages to people inside a list of tags with campaigns. You can back up the data and import it locally so you have high privacy, don’t lose the data and it's faster to use it.</p>
-                <a href="messenger-matic.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
+        <div class="row mb-lg-5 mb-0 justify-content-center software__row">
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/mm.png"
+              class="w-100 rounded"
+              alt="messenger matic"
+            />
+          </div>
+          <div class="col-lg-5 mb-5 v-centered">
+            <h3>Messenger matic</h3>
+            <p>
+              Messenger Matic is a chrome extension that helps you to tag and
+              manage people inside your messenger. You can assign notes, create
+              notifications, and You can also send bulk messages to people
+              inside a list of tags with campaigns. You can back up the data and
+              import it locally so you have high privacy, don’t lose the data
+              and it's faster to use it.
+            </p>
+            <a href="messenger-matic.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row col-reverse">
-            <div class="col-lg-5 v-centered mb-5">
-                <h3>Friend Approver</h3>
-                <p>                        Friend Approver is a chrome extension that helps you to accept people based on mutual friends. You can set the number of mutual friends and it will accept or decline based on that. You can also send a message right after you accept or decline a request.</p>
-                <a href="friend-approver.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/fa.png" class="w-100 rounded" alt="friend approver">
-            </div>
+        <div
+          class="row mb-lg-5 mb-0 justify-content-center software__row col-reverse"
+        >
+          <div class="col-lg-5 v-centered mb-5">
+            <h3>Friend Approver</h3>
+            <p>
+              Friend Approver is a chrome extension that helps you to accept
+              people based on mutual friends. You can set the number of mutual
+              friends and it will accept or decline based on that. You can also
+              send a message right after you accept or decline a request.
+            </p>
+            <a href="friend-approver.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/fa.png"
+              class="w-100 rounded"
+              alt="friend approver"
+            />
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row">
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/ls.png" class="w-100 rounded" alt="Link saver">
-            </div>
-            <div class="col-lg-5 mb-5 v-centered">
-                <h3>link saver</h3>
-                <p>                        Link Saver is a chrome extension that helps you to save and find links when you need it the most. You can save based on tags and see them inside the tags so you can categorize it to find it fast. You can copy the link and few clicks and save the data from and to the server in one click so you don’t lose it.</p>
-                <a href="link-saver.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
+        <div class="row mb-lg-5 mb-0 justify-content-center software__row">
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/ls.png"
+              class="w-100 rounded"
+              alt="Link saver"
+            />
+          </div>
+          <div class="col-lg-5 mb-5 v-centered">
+            <h3>link saver</h3>
+            <p>
+              Link Saver is a chrome extension that helps you to save and find
+              links when you need it the most. You can save based on tags and
+              see them inside the tags so you can categorize it to find it fast.
+              You can copy the link and few clicks and save the data from and to
+              the server in one click so you don’t lose it.
+            </p>
+            <a href="link-saver.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="row  mb-lg-5 mb-0 justify-content-center software__row col-reverse">
-            <div class="col-lg-5 v-centered mb-5">
-                <h3>Messenger connector</h3>
-                <p>Messenger Connector is a chrome extension that helps you to do outreach marketing sending messages to people. You can scan your friend list and create a campaign to send messages to people. When you send a message you can set conditions like the number of messages you need to send per day(if you select 100 friends but if you set it to send 30 per day it will send 30 message to and 30 next and till it ends), delay between messages, and whether to send a message or not if you have already talked to this person. You can also send messages to recently added new friends using this.</p>
-                <a href="messenger-connector.html" class="know__more">Know more <i class="fa fa-arrow-right"></i> </a>
-            </div>
-            <div class="col-lg-5 mb-5">
-                <img src="assets/img/softwares/mc.png" class="w-100 rounded" alt="Messenger connector">
-            </div>
+        <div
+          class="row mb-lg-5 mb-0 justify-content-center software__row col-reverse"
+        >
+          <div class="col-lg-5 v-centered mb-5">
+            <h3>Messenger connector</h3>
+            <p>
+              Messenger Connector is a chrome extension that helps you to do
+              outreach marketing sending messages to people. You can scan your
+              friend list and create a campaign to send messages to people. When
+              you send a message you can set conditions like the number of
+              messages you need to send per day(if you select 100 friends but if
+              you set it to send 30 per day it will send 30 message to and 30
+              next and till it ends), delay between messages, and whether to
+              send a message or not if you have already talked to this person.
+              You can also send messages to recently added new friends using
+              this.
+            </p>
+            <a href="messenger-connector.html" class="know__more"
+              >Know more <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <img
+              src="assets/img/softwares/mc.png"
+              class="w-100 rounded"
+              alt="Messenger connector"
+            />
+          </div>
         </div>
-    </div>
-</section>
-<!-- ourSoftwares-End -->
-
+      </div>
+    </section>
+    <!-- ourSoftwares-End -->
 
     <!-- footer -->
     <footer class="linksection pt-5 pb-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden">
-                        New Feature
-                    </div>
-                    <a href="index.html" class="nav-link p-0 mb-2">
-                        <img src="./assets/img/smslogo__light.png" width="160" alt="Logo">
-                    </a>
-                    <p class="text-white">Social Magnet suite is a software for marketers to automate their organic marketing  efforts.</p>
-                </div>
-
-                <div class="col-lg-2 offset-lg-1">
-                    <div class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden">
-                        New Feature
-                    </div>
-                    <h4 class="text-white mt-3">Quick Links</h4>
-                    <div class="footer-links">
-                        <ul class="list-unstyled">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link text-white">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="pricing.html" class="nav-link text-white">Pricing</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="team.html" class="nav-link text-white">Team</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2">
-                    <div class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden">
-                        New Feature
-                    </div>
-                    <h4 class="text-white mt-3">Quick Links</h4>
-                    <div class="footer-links">
-                        <ul class="list-unstyled">
-
-                            <li class="nav-item">
-                                <a href="terms.html" class="nav-link text-white">Terms of Service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#faq" class="nav-link text-white">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="privacy.html" class="nav-link text-white">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3">
-                    <div class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden">
-                        New Feature
-                    </div>
-                    <h4 class="text-white mt-3">Connect with us:</h4>
-                    <div class="footer-links">
-                        <ul class="list-unstyled">
-                            <li class="nav-item">
-                                <a href="#" class="social-links me-2 text-white"><i class="fab fa-facebook fa-2x"></i></a>
-                                <a href="#" class="social-links me-2 text-white"><i class="fab fa-instagram fa-2x"></i></a>
-                                <a href="#" class="social-links text-white"><i class="fab fa-twitter fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div
+              class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden"
+            >
+              New Feature
             </div>
+            <a href="index.html" class="nav-link p-0 mb-2">
+              <img
+                src="./assets/img/smslogo__light.png"
+                width="160"
+                alt="Logo"
+              />
+            </a>
+            <p class="text-white">
+              Social Magnet suite is a software for marketers to automate their
+              organic marketing efforts.
+            </p>
+          </div>
 
-            <div class="row mt-5">
-                <div class="col-lg-12 text-center">
-                    <p class="mb-0 text-white">Copyright &copy; 2021 | Social Magnet Suite</p>
-                </div>
+          <div class="col-lg-2 offset-lg-1">
+            <div
+              class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden"
+            >
+              New Feature
             </div>
+            <h4 class="text-white mt-3">Quick Links</h4>
+            <div class="footer-links">
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link text-white">Pricing</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="team.html" class="nav-link text-white">Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div
+              class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden"
+            >
+              New Feature
+            </div>
+            <h4 class="text-white mt-3">Quick Links</h4>
+            <div class="footer-links">
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="terms.html" class="nav-link text-white"
+                    >Terms of Service</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#faq" class="nav-link text-white">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="privacy.html" class="nav-link text-white"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div
+              class="badge link-badge bg-link_secondary p-2 pl-3 pr-3 shadow hidden"
+            >
+              New Feature
+            </div>
+            <h4 class="text-white mt-3">Connect with us:</h4>
+            <div class="footer-links">
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="#" class="social-links me-2 text-white"
+                    ><i class="fab fa-facebook fa-2x"></i
+                  ></a>
+                  <a href="#" class="social-links me-2 text-white"
+                    ><i class="fab fa-instagram fa-2x"></i
+                  ></a>
+                  <a href="#" class="social-links text-white"
+                    ><i class="fab fa-twitter fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-12 text-center">
+            <p class="mb-0 text-white">
+              Copyright &copy; 2021 | Social Magnet Suite
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- footer-end -->
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
-
-
-</body>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
