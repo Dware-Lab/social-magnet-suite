@@ -40,11 +40,19 @@ a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-family: "Montserrat",sans-serif;
     color: #183646;
     font-weight: 800;
 }
+
+h3 {
+    font-family: "Montserrat",sans-serif;
+    color: #183646;
+    font-weight: 500;
+}
+
+
 
 th {
     text-align: left;
